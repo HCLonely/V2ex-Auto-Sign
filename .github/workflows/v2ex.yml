@@ -27,10 +27,3 @@ jobs:
                 QMSGAPI: ${{ secrets.QMSGAPI }}
                 sckey: ${{ secrets.sckey }}
                 tgapi: ${{ secrets.tgapi }}
-            - name: Upload to this repo
-              run: |
-                git config --global user.name "v2ex-签到通知"
-                git config --global user.email "wenmoux@gmail.com.com" 
-                git add . 
-                git commit -m 'upload 签到结果'  
-                git push -u origin master
