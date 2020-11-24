@@ -42,4 +42,3 @@ Name 是QMSGAPI value是你的api
  - 设置好之后要点击Actions启用下
  - 可以自己改定时时间
  - 还没想到 
-
