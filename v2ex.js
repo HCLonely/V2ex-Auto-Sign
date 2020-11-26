@@ -19,7 +19,7 @@ time = new Date();
 
 tmpHours = time.getHours();time.setHours(tmpHours + 8);
 
-notice = time.toLocaleString() + "\n";
+notice = time.toLocaleString() + "\nV2ex自动签到结果：\n";
 
 const header = {
 
