@@ -8,6 +8,7 @@ const qmsgapi = process.env.QMSGAPI;
 
 const sckey = process.env.sckey;
 const tgapi = process.env.tgapi;
+axios.defaults.timeout = 30000;
 
 once = null;
 
